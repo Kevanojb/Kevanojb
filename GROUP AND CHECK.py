@@ -40,10 +40,6 @@ def create_groups(shuffled_players, max_group_size=4, past_games_data=None, max_
     best_grouping = None
     most_nones = -1  # Initialize with a low number
 
-    # ... [rest of your code for creating groups] ...
-
-    
-
     if max_retries is None:
         max_retries = 10  # Default value if the user cancels the dialog
 
@@ -54,8 +50,6 @@ def create_groups(shuffled_players, max_group_size=4, past_games_data=None, max_
 
     best_grouping = None
     most_nones = -1  # Initialize with a low number
-
-    # ... [rest of your code for creating groups] ...
 
 
     for _ in range(max_retries):
@@ -229,8 +223,6 @@ from tkinter import filedialog
 from openpyxl import load_workbook, Workbook
 import pandas as pd
 from datetime import datetime
-
-# Assuming your other function definitions (like shuffle_and_sort_players, create_groups, etc.) are above this main function
 
 def main():
     # Initialize Tkinter
